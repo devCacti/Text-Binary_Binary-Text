@@ -72,7 +72,14 @@ int main()
     std::cout << std::endl;
 
     // Get input
-    std::cout << "Enter prompt   : ";
+    if (choice == "1")
+    {
+        std::cout << "Enter the text    : ";
+    }
+    else
+    {
+        std::cout << "Enter the binary  : ";
+    }
 
     // Get input
     getline(cin, text);
